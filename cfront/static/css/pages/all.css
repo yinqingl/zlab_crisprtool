@@ -1,0 +1,175 @@
+.footer {
+  margin-top: 2em;
+  border-top: 1px solid #efefef;
+  padding-top: 1em;
+  text-align: center; }
+
+.inline {
+  display: inline; }
+
+.alert .content {
+  max-width: 300px;
+  margin: 0 auto; }
+
+.unselectable {
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none; }
+
+.disabled {
+  color: lightgray;
+  cursor: not-allowed; }
+
+.sequence {
+  font-family: courier; }
+
+.v-middle {
+  vertical-align: middle; }
+
+.valid {
+  position: fixed;
+  width: 200px;
+  right: 0px;
+  background-color: #FEFEFE;
+  border: 1px solid lightgrey;
+  padding: 20px;
+  margin: 25px;
+  bottom: 0px; }
+  .valid .dna {
+    word-break: break-all; }
+  .valid li {
+    margin-top: 10px; }
+
+.showing-less > .more {
+  display: none; }
+
+.showing-more > .less {
+  display: none; }
+
+body .navbar li > a, body .navbar .brand {
+  color: black; }
+
+.section {
+  padding: .5em;
+  margin: 1em; }
+
+.section.bad {
+  border: 1px solid rgba(255, 0, 0, 0.3); }
+  .section.bad .header {
+    color: red; }
+
+.section.good {
+  border: 1px solid rgba(0, 255, 0, 0.3); }
+  .section.good .header {
+    color: green; }
+
+.inactive {
+  opacity: .25;
+  pointer-events: none; }
+
+#navparent {
+  width: 0px;
+  height: 0px;
+  display: inline-block;
+  position: fixed;
+  left: 0px;
+  top: 50%;
+  margin-top: -56px; }
+
+.bs-docs-sidenav {
+  width: 128px;
+  margin: 0px 0 0;
+  padding: 0;
+  background-color: #fff;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065); }
+
+.bs-docs-sidenav > li > a {
+  display: block;
+  width: 90px 9;
+  margin: 0 0 -1px;
+  padding: 8px 14px;
+  border: 1px solid #e5e5e5; }
+
+.bs-docs-sidenav .icon-chevron-right {
+  float: right;
+  margin-top: 2px;
+  margin-right: -6px;
+  opacity: .25; }
+
+.bs-docs-sidenav .active .icon-chevron-right, .bs-docs-sidenav .active a:hover .icon-chevron-right {
+  background-image: url(../img/glyphicons-halflings-white.png);
+  opacity: 1; }
+
+.bs-docs-sidenav > .active > a {
+  position: relative;
+  z-index: 2;
+  padding: 9px 15px;
+  border: 0;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.1), inset -1px 0 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.1), inset -1px 0 0 rgba(0, 0, 0, 0.1);
+  box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.1), inset -1px 0 0 rgba(0, 0, 0, 0.1); }
+
+a {
+  cursor: pointer; }
+
+.left {
+  text-align: left; }
+
+.center {
+  text-align: center; }
+
+.med-left-margin {
+  margin-left: 20px; }
+
+.med-top-margin {
+  margin-top: 20px; }
+
+.small-left-margin {
+  margin-left: 1em; }
+
+th {
+  padding-left: 5px;
+  padding-right: 5px; }
+
+svg {
+  font-family: courier;
+  font-size: 10px; }
+
+.dna {
+  font-family: courier; }
+
+.locus {
+  font-family: courier; }
+
+.nrg {
+  color: green;
+  font-weight: bold; }
+
+.occupied {
+  color: rgba(0, 0, 0, 0.75);
+  text-decoration: underline; }
+
+.break-all {
+  word-break: break-all; }
+
+.hover {
+  display: none; }
+
+#sequence_submission_area {
+  min-width: 400px; }
+
+#submit {
+  margin-left: 100px; }
+
+form.submitted {
+  cursor: wait; }
+  form.submitted .submit-group input {
+    pointer-events: none;
+    opacity: .5; }

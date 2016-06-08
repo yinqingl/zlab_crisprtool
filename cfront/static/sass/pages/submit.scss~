@@ -1,0 +1,13 @@
+#sequence_submission_area{
+    min-width:400px;
+}
+
+form{
+    &.submitted {
+	cursor:wait;
+	.submit-group input{
+	    pointer-events:none;
+	    opacity:.5;
+	}
+    }
+}

@@ -1,0 +1,123 @@
+body.job{
+    #job-container{
+	margin-top:35px;
+    }
+    .job-page-pages-view{
+	margin-bottom:25px;
+    }
+    .job-page-status-view{
+    .status{
+
+	box-sizing:border-box;
+	font-family:courier;
+	text-align:center;
+	overflow:hidden;
+
+	position:relative;
+	width:100%;
+	
+	margin-top:0px;
+	margin-bottom:0px;
+
+	.progress{
+	    margin-top:10px;
+	    margin-bottom:10px;
+	}
+	&.done{
+	    .progress{
+		height:1px;
+		opacity:.5;
+		transition:height 1s, opacity .5s;
+	    }
+	}	
+    }
+     margin-bottom:35px;
+    }
+
+    .right{
+	position:absolute;
+	right:0px;
+    }
+    .cards{
+	padding-left:25px;
+	padding-top:50px;
+	padding-bottom:50px;
+	.card .footer{
+	    padding-top:4px;
+	    width:100%;
+	    text-align:left;
+	}
+	.card{
+	}
+	#email-complete{
+	    margin:0px;
+	}
+	.card{
+	    
+	    min-height:0px;
+	    height:150px;
+	    width:150px;
+	    margin:35px;
+	    
+	    border-color:lightgray;
+	    
+	    &:first-child{
+		margin-left:15px;
+	    }
+	    .background{
+		background-repeat: no-repeat;
+		background-position:center;
+		opacity:.7;
+		position:absolute;
+		left:0px;
+		top:0px;
+		right:0px;
+		bottom:0px;
+	    }
+	    &:hover {
+		border-color:black;
+		.background{
+		    opacity:1;
+		}}
+	    &.nickase{
+		.background{
+		    background-image: url("/img/nickase-preview.svg");
+		}
+	    }
+	    &.guides{
+		.background{
+		    background-image: url("/img/crispr-logo.jpg");
+		}
+	    }
+	}
+    }
+
+    &:not(.done){
+	.nickase{
+	    cursor:wait;
+	    opacity:.25;
+	    >*{
+		pointer-events:none;
+	    }
+	}
+	.download-container{
+	    a{
+		color:rgba(0, 0, 0, .5);
+		pointer-events:none;
+	    }
+	    cursor:wait;
+	    //opacity:.1;
+	}
+
+    }
+    &.done{
+	.wait-for-nickase{
+	    display:none;
+	}
+    }
+    
+    h3{
+	margin-top:20px;
+	margin-bottom:0px;
+    }
+}

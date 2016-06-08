@@ -1,0 +1,41 @@
+#sequence_submission_area{
+    min-width:325px;
+}
+
+
+#submit{
+    margin-top:50px;
+    .tab-content{
+	overflow:visible;
+	.tab-pane{
+	    padding-top:80px;
+	    max-width: 600px;
+	    margin-right: auto;
+	    margin-left: auto;
+
+	    .header-description{
+		margin-top: -60px;
+		position: absolute;
+		text-align: center;
+		left: 0px;
+		right: 0px;
+		color: #000;
+		opacity: .5;
+		font-size: 100%;
+	    }
+	}	
+    }
+    form{
+	&.submitted {
+	    cursor:wait;
+	    .submit-group input{
+		pointer-events:none;
+		opacity:.5;
+	    }
+	    input[type='file']{
+		width: 95px;
+	    }
+	}
+    }
+}
+
